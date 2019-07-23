@@ -78,6 +78,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "dbit.users.apps.UsersConfig",
     # Your stuff: custom apps go here
+    "dbit.expenses"
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
