@@ -4,6 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
+pydocstyle = "*"
+rope = "*"
 
 [packages]
 pytz = "==2019.1"
@@ -38,6 +41,8 @@ django-extensions = "==2.1.9"
 django-coverage-plugin = "==1.6.0"
 pytest-django = "==3.5.1"
 Pillow = "==6.1.0"
+rope = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.7"
