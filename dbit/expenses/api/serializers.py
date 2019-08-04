@@ -1,8 +1,9 @@
 from rest_framework import serializers
-from .models import Expenses
+
+from dbit.expenses.api.models import Expenses
 
 
 class ExpensesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Expenses
-        fields = '__all__'
+        fields = "__all__"
